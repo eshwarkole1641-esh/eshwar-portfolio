@@ -1,0 +1,121 @@
+body{
+    font-family: Arial,  sans-serif;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+/* Navigation bar */
+nav{
+    background-color: rgb(1, 1, 39);
+    color:red;
+    text-align: center;
+    padding: 15px;
+
+}
+.nav-links{
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+
+}
+.nav-links:hover{
+    background-color: #D4AF37;
+}
+/* hero section */
+.hero{
+    text-align: center;
+    padding: 60px;
+    background-color: #e2e2e2;
+}
+section{
+    padding: 40px;
+    margin: 10px;
+    border: 2px solid black;
+}
+
+h1{
+    color:#2c3e50;
+}
+
+h2{
+    color: #34495e;
+    margin-bottom: 10px;
+}
+ul{
+    margin-left: 20px;
+}
+
+li{
+    margin: 5px 0;
+}
+.skills{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.card{
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+
+}
+.card:hover{
+    color: white;
+    background-color:#50432c ;
+    cursor: pointer;
+}
+
+.projects{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+
+}
+.projects{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    
+}
+.project-card{
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    width: 250px;
+}
+.project-card:hover{
+   transform: scale(1.05);
+   transition: 0.3s;
+}
+
+.button{
+    background-color: #D4AF37;
+    color: black;
+    padding: 10px 15px;
+    border-radius: 6px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 10px;
+}
+.button:hover{
+    background-color: #b8962e;
+}
+html{
+    scroll-behavior: smooth;
+}
+#contact a{
+    color:#1E3A8A;
+    text-decoration: none;
+}
+#contact a:hover{
+    color:#D4AF37;
+}
+footer{
+    background-color:#0B0B0B ;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+}
